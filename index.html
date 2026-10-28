@@ -15,7 +15,7 @@
     p{font-size:1.1rem;line-height:1.6;color:var(--muted)}
     .links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
     a.btn{display:inline-block;padding:14px 20px;border:1px solid var(--navy);border-radius:14px;text-decoration:none;color:var(--navy);font-weight:650;background:#fff}
-    a.btn.primary{background:var(--navy);color:#fff}
+    a.btn.primary{background:var(--navy);color:#fff}a.btn.privacy{border-color:#b3e5e1;background:#fff;color:#095a69;display:inline-flex;align-items:center;gap:9px}a.btn.privacy:hover{background:#e8f8f5;border-color:#56c4c5}.privacy-note{font-size:.93rem;line-height:1.5;color:var(--muted);margin:16px auto 0;max-width:520px}.privacy-note a{color:var(--navy);text-underline-offset:3px}
     footer{text-align:center;font-size:.86rem;padding:28px;color:var(--muted)}footer a{color:var(--navy)}
   </style>
 </head>
@@ -26,9 +26,10 @@
     <p>Descubra e salve os lugares que você encontrou em fotos, prints e links. Transforme inspirações em um mapa pessoal.</p>
     <div class="links">
       <a class="btn primary" href="https://apps.apple.com/br/app/id6826021580">Ver na App Store</a>
-      <a class="btn" href="https://mtitton.github.io/onde-privacy/">Política de Privacidade</a>
+      <a class="btn privacy" href="https://mtitton.github.io/onde-privacy/" aria-label="Ler a Política de Privacidade do ONDE"><span aria-hidden="true">◈</span> Política de Privacidade</a>
     </div>
+    <p class="privacy-note">Saiba como o ONDE trata fotos, dados de uso e anúncios. Leia nossa <a href="https://mtitton.github.io/onde-privacy/">Política de Privacidade</a>, disponível em português e inglês.</p>
   </main>
-  <footer>© 2026 Marcus Titton · <a href="mailto:mvtitton@gmail.com">Contato</a></footer>
+  <footer>© 2026 Marcus Titton · <a href="mailto:mvtitton@gmail.com">Contato</a> · <a href="https://mtitton.github.io/onde-privacy/">Privacidade</a></footer>
 </body>
 </html>
